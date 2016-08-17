@@ -1,6 +1,6 @@
-package com.above.data;
+package com.above.core.data;
 
-import com.above.exceptions.InvalidDataColumnException;
+import com.above.core.exceptions.InvalidDataColumnException;
 
 /**
  * DataRows are records stored within a DataTable with specific DataColumns

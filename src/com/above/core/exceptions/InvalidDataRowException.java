@@ -1,4 +1,4 @@
-package com.above.exceptions;
+package com.above.core.exceptions;
 
 /**
  * InvalidDataRowException for handling attempting to obtain an invalid row

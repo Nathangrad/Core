@@ -1,11 +1,12 @@
-package com.above.core;
+package com.above.core.core;
 
 import java.util.logging.Logger;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.above.data.Example;
+import com.above.core.quests.QuestListener;
+import com.above.core.utils.Messages;
 
 /**
  * Core main class running the example Data Management system
@@ -19,7 +20,8 @@ public class Core extends JavaPlugin {
 
 	@Override
 	public void onEnable() {
-		new Example();
+		Messages.core = this;
+		Bukkit.getServer().getPluginManager().registerEvents(new QuestListener(), this);
 		console.info("Core successfully enabled");
 	}
 

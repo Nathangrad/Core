@@ -1,4 +1,4 @@
-package com.above.exceptions;
+package com.above.core.exceptions;
 
 /**
  * InvalidDataColumnException for handling attempting to obtain an invalid

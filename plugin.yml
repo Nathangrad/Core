@@ -1,5 +1,5 @@
-name: CoreAPI
+name: AboveCore
 author: NathanGrad
 description: Core API
 version: 1.0
-main: com.above.core.Core
+main: com.above.core.core.Core
